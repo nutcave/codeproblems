@@ -7,10 +7,6 @@ import java.util.*;
 public class MaxDotLine {
 
 
-    /**
-     *  (1) given a graph with random dots, find the line that crosses the most dots "hint: use slope equation",
-     *
-     */
 
     Map<Integer,Set<Point>> pointM=new HashMap<>(); // slope to ListOfPoints
 
