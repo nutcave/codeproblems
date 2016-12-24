@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Nutcave on 12/24/2016.
@@ -7,7 +8,7 @@ public class GeneratePalindrome {
 
     public ArrayList<ArrayList<String>> partition(String a) {
 
-        ArrayList<ArrayList<String>> results= new ArrayList<ArrayList<String>>();
+        ArrayList<ArrayList<String>> results= new ArrayList<>();
 
         partition2(results, a,  new ArrayList<String>());
 
@@ -17,7 +18,7 @@ public class GeneratePalindrome {
     public void partition2( ArrayList<ArrayList<String>> results,String s , ArrayList<String> nowRes){
 
         if(s.length() == 0){
-            results.add(new ArrayList<String>(nowRes));
+            results.add(new ArrayList<>(nowRes));
             return;
         }
 
