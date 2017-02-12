@@ -6,9 +6,9 @@ import java.util.Stack;
 /**
  * Created by Nutcave on 1/23/2017.
  */
-public class PostTraversalTree {
+public class TreePreOrderTraversal {
 
-    public ArrayList<Integer> postorderTraversal(TreeNode a) {
+    public ArrayList<Integer> preorderTraversal(TreeNode a) {
 
         ArrayList<Integer> arr= new ArrayList<>();
         Stack<TreeNode> st= new Stack<>();
@@ -16,30 +16,23 @@ public class PostTraversalTree {
         st.push(a);
         while(!st.isEmpty()){
 
-            TreeNode n= st.peek();
+            TreeNode n= st.pop();
 
-            if(n.left == null && n.right == null){
-                arr.add(st.pop().val);
-            }
+            arr.add(n.val);
+            if (n.right != null) {
 
-            if(n.right != null){
                 st.push(n.right);
-                n.right=null;
 
             }
 
             if(n.left != null){
+
                 st.push(n.left);
-                n.left=null;
-
             }
-
-
 
         }
 
         return arr;
-
 
     }
 }

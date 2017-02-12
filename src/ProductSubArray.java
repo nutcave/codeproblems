@@ -55,12 +55,11 @@ public class ProductSubArray {
             /* If element is negative. This is tricky
                max_ending_here can either be 1 or positive.
                min_ending_here can either be 1 or negative.
-               next min_ending_here will always be prev.
-               max_ending_here * arr[i]
-               next max_ending_here will be 1 if prev
-               min_ending_here is 1, otherwise
-               next max_ending_here will be
-                           prev min_ending_here * arr[i] */
+
+               next min_ending_here will always be prev. max_ending_here * arr[i]
+
+               next max_ending_here will be 1 if prev min_ending_here is 1, otherwise
+               next max_ending_here will be rev min_ending_here * arr[i] */
             else {
                 int temp = max_ending_here;
                 max_ending_here = max(min_ending_here * arr[i], 1);
