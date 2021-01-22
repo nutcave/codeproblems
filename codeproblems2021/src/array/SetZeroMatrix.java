@@ -1,13 +1,7 @@
 package array;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 
-/**
- * Created by Nutcave on 1/14/2017.
- */
 public class SetZeroMatrix {
 
     public static void setZeroes(int[][] matrix) {
@@ -34,7 +28,6 @@ public class SetZeroMatrix {
 
 
     }
-
 
     public static void main(String[] args) {
         int[][] myArr =         {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
