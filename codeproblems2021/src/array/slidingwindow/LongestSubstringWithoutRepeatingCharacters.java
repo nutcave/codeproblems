@@ -37,6 +37,7 @@ import java.util.Set;
  */
 public class LongestSubstringWithoutRepeatingCharacters {
 
+    //O(n) time complexity, O(n) space complexity
     public  static int lengthOfLongestSubstring(String s) {
         char[] arr= s.toCharArray();
         int longest=0,j=0;

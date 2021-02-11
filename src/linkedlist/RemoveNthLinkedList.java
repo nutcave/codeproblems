@@ -7,42 +7,7 @@ import util.ListNode;
  */
 public class RemoveNthLinkedList {
 
-    public ListNode removeNthFromEnd(ListNode a, int b) {
-
-
-        ListNode n = a;
-        ListNode target=a;
-        int ptr1=0;
-
-        while(n.next != null){
-            if(ptr1>b-1){
-                target=target.next;
-
-            }
-
-            n=n.next;
-            ptr1++;
-        }
-
-        //If n is greater than the size of the list, remove the first node of the list
-        if(b>ptr1){
-            return a.next;
-        }
-
-
-        //swap
-
-        if(target.next ==null){
-            return null;
-        }
-        target.next=target.next.next;
-
-
-
-        return a;
-    }
-
-    public ListNode removeNthFromEnd2(ListNode head, int n) {
+    public ListNode removeNthFromEnd(ListNode head, int n) {
         if(head == null)
             return null;
 
@@ -80,6 +45,7 @@ public class RemoveNthLinkedList {
         listNode3.next=listNode4;
 
         new RemoveNthLinkedList().removeNthFromEnd(listNode,1);
-        new RemoveNthLinkedList().removeNthFromEnd2(listNode,2);
+        new RemoveNthLinkedList().removeNthFromEnd(listNode,2);
+        new RemoveNthLinkedList().removeNthFromEnd(new ListNode(1,new ListNode(2,null)),2);
     }
 }

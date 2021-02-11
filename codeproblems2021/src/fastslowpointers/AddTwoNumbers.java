@@ -1,17 +1,8 @@
-package linkedlist;
+package fastslowpointers;
 
 import util.ListNode;
 
-/**
- *
- * You are given two linked lists representing two non-negative numbers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
-
- Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
- Output: 7 -> 0 -> 8
-
- * Created by Nutcave on 1/16/2017.
- */
-public class AddTwoLists {
+public class AddTwoNumbers {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
@@ -53,4 +44,10 @@ public class AddTwoLists {
         return head;
 
     }
+
+    public static void main(String[] args) {
+        new AddTwoNumbers().addTwoNumbers(new ListNode(2,new ListNode(4,new ListNode(3,null))),new ListNode(5,new ListNode(6,new ListNode(4,null))));
+    }
+
+
 }
