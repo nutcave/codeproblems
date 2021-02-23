@@ -4,27 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70d6ef99-11ae-4d93-9e11-f42f368c8562" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/mergeintervals/IntervalIntersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/mergeintervals/MergeIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/slidingwindow/MinimumSizeSubarraySum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/slidingwindow/PermutationInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/twopointer/SortColors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/twopointer/ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/cyclicsort/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/fastslowpointers/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/fastslowpointers/SortList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeproblems2021/codeproblems2021.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codeproblems2021/codeproblems2021.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeproblems2021/src/array/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeproblems2021/src/array/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/ThreeSumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ThreeSumClosest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/AddTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/AddTwoLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/RemoveNthLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/RemoveNthLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ListNode.java" afterDir="false" />
+    <list default="true" id="70d6ef99-11ae-4d93-9e11-f42f368c8562" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/binarysearch/FindSmallestNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/DecodeWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/LongestPalidrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/bfs/AverageLevels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/bfs/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/bfs/PopulateToRightNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/heap/TopKFrequent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/reverseinplace/OddEvenList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/reverseinplace/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/reverseinplace/SwapNodeList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,13 +62,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
-  <component name="RunManager" selected="Application.MissingNumber">
-    <configuration name="AddTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fastslowpointers.AddTwoNumbers" />
+  <component name="RunManager" selected="Application.TopKFrequent">
+    <configuration name="DecodeWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.dynamicprog.DecodeWays" />
       <module name="codeproblems2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fastslowpointers.*" />
+          <option name="PATTERN" value="array.dynamicprog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.mergeintervals.MergeIntervals" />
+    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.dynamicprog.HouseRobber" />
       <module name="codeproblems2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.mergeintervals.*" />
+          <option name="PATTERN" value="array.dynamicprog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cyclicsort.MissingNumber" />
+    <configuration name="LongestPalidrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.dynamicprog.LongestPalidrome" />
       <module name="codeproblems2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cyclicsort.*" />
+          <option name="PATTERN" value="array.dynamicprog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNthLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.RemoveNthLinkedList" />
-      <module name="codeproblems" />
+    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.dynamicprog.MaxSubArray" />
+      <module name="codeproblems2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
+          <option name="PATTERN" value="array.dynamicprog.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fastslowpointers.SortList" />
+    <configuration name="TopKFrequent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="heap.TopKFrequent" />
       <module name="codeproblems2021" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fastslowpointers.*" />
+          <option name="PATTERN" value="heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MissingNumber" />
-        <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.SortList" />
-        <item itemvalue="Application.RemoveNthLinkedList" />
-        <item itemvalue="Application.AddTwoNumbers" />
+        <item itemvalue="Application.TopKFrequent" />
+        <item itemvalue="Application.HouseRobber" />
+        <item itemvalue="Application.DecodeWays" />
+        <item itemvalue="Application.LongestPalidrome" />
+        <item itemvalue="Application.MaxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611441797467</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1613087806669</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613087806670</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +205,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codeproblems2021/src/heap/TopKFrequent.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="a" />
