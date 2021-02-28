@@ -6,39 +6,46 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by Nutcave on 12/24/2016.
+ *
+ * 108. Convert Sorted Array to Binary Search Tree
+ *
+ * https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
+ *
+ Given an integer array nums where the elements are sorted in ascending order, convert it to a height-balanced binary search tree.
+
+ A height-balanced binary tree is a binary tree in which the depth of the two subtrees of every node never differs by more than one.
+
+ Input: nums = [-10,-3,0,5,9]
+ Output: [0,-3,9,-10,null,5]
+ Explanation: [0,-10,5,null,-3,null,9] is also accepted:
  */
 public class SortedArrayToBalancedBST {
 
-    public TreeNode sortedArrayToBST(final List<Integer> a) {
-
-
-        return helper(a, 0, a.size());
-
+    public TreeNode sortedArrayToBST(int[] nums) {
+        return helper(nums,0,nums.length-1);
 
     }
 
-    public TreeNode helper(final List<Integer> a, int start, int end) {
+    public TreeNode helper(int[] nums,int i, int j){
 
-        if (start > end) {
+        if(i>j){
             return null;
         }
 
-        int mid = (start + end) / 2;
+        int mid= (i+j)/2;
+        int val = nums[mid];
+        TreeNode node= new TreeNode(val);
 
-        TreeNode root = new TreeNode(a.get(mid));
+        node.left=helper(nums,i,mid-1);
+        node.right=helper(nums,mid+1,j);
 
-        root.left = helper(a,start, mid-1);
-        root.right = helper(a, mid+1, end);
-
-        return root;
-
+        return node;
 
     }
 
 
     public static void main(String[] args) {
 
-        new SortedArrayToBalancedBST().sortedArrayToBST(Arrays.asList(1,2,3,4,5,6));
+        new SortedArrayToBalancedBST().sortedArrayToBST(new int[]{-10,-3,0,5,9});
     }
 }

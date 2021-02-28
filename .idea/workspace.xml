@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70d6ef99-11ae-4d93-9e11-f42f368c8562" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/binarysearch/FindSmallestNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/DecodeWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/HouseRobber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/LongestPalidrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/MaxSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/bfs/AverageLevels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/bfs/BinaryTreeLevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/bfs/PopulateToRightNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/heap/TopKFrequent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/reverseinplace/OddEvenList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/reverseinplace/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/reverseinplace/SwapNodeList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/BuySellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/UniqueWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/binarytree/MaxBinaryTreeDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/binarytree/MergeTrees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/fastslowpointers/RemoveDuplicateFromSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/fastslowpointers/RemoveDuplicateFromSortedList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/map/SubarraySumEquals.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/ReverseLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backtracking/CombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backtracking/CombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/SortedArrayToBalancedBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/SortedArrayToBalancedBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +58,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
   </component>
-  <component name="RunManager" selected="Application.TopKFrequent">
-    <configuration name="DecodeWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.dynamicprog.DecodeWays" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fastslowpointers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CombinationSum">
+    <configuration name="BuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.dynamicprog.BuySellStock" />
       <module name="codeproblems2021" />
       <extension name="coverage">
         <pattern>
@@ -76,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.dynamicprog.HouseRobber" />
-      <module name="codeproblems2021" />
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backtracking.CombinationSum" />
+      <module name="codeproblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.dynamicprog.*" />
+          <option name="PATTERN" value="backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalidrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.dynamicprog.LongestPalidrome" />
-      <module name="codeproblems2021" />
+    <configuration name="RemoveDupSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.RemoveDupSortedArray" />
+      <module name="codeproblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.dynamicprog.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.dynamicprog.MaxSubArray" />
-      <module name="codeproblems2021" />
+    <configuration name="SortedArrayToBalancedBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.SortedArrayToBalancedBST" />
+      <module name="codeproblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.dynamicprog.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CombinationSum" />
+        <item itemvalue="Application.SortedArrayToBalancedBST" />
+        <item itemvalue="Application.BuySellStock" />
+        <item itemvalue="Application.RemoveDupSortedArray" />
         <item itemvalue="Application.TopKFrequent" />
-        <item itemvalue="Application.HouseRobber" />
-        <item itemvalue="Application.DecodeWays" />
-        <item itemvalue="Application.LongestPalidrome" />
-        <item itemvalue="Application.MaxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613087806670</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1614122498618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614122498618</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,9 +216,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/codeproblems2021/src/heap/TopKFrequent.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/BuySellStock.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/backtracking/CombinationSum.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
