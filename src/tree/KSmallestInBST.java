@@ -7,32 +7,24 @@ import util.TreeNode;
  */
 public class KSmallestInBST {
 
-    int k;
-    int res;
-    public int kthsmallest(TreeNode root, int k) {
-        this.k=k;
+    int count = 0;
+    int res = 0;
 
-
-        inOrder(root);
+    public int kthSmallest(TreeNode root, int k) {
+        inOrder(root, k);
         return res;
 
     }
 
-    void inOrder(TreeNode root){
+    public void inOrder(TreeNode root, int k) {
+        if (root == null) return;
 
-        if(root == null) return;
-        if(k==0) return;
-
-        inOrder(root.left);
-
-        --k;
-        if(k==0){
-            res=root.val;
-            return;
+        inOrder(root.left, k);
+        count++;
+        if (count == k) {
+            res = root.val;
         }
-
-        inOrder(root.right);
+        inOrder(root.right, k);
 
     }
-
 }

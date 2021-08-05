@@ -27,34 +27,37 @@ import java.util.Set;
 public class PermutationInString {
 
     public boolean checkInclusion(String s1, String s2) {
-        int len1 = s1.length(), len2 = s2.length();
-        if (len1 > len2) return false;
+        if (s1.length() > s2.length())
+            return false;
 
-        int[] count = new int[26];
-        for (int i = 0; i < len1; i++) {
+        int[] count= new int[26];
+
+        for(int i=0; i< s1.length();i++){
             count[s1.charAt(i) - 'a']++;
         }
 
-        for (int i = 0; i < len2; i++) {
+        for(int i= 0; i < s2.length(); i++){
             count[s2.charAt(i) - 'a']--;
-            if (i - len1 >= 0) {
-                count[s2.charAt(i - len1) - 'a']++;
+
+            if(i >= s1.length()){
+                count[s2.charAt(i-s1.length()) - 'a']++;
             }
 
+            if(allZeroes(count)) return true;
 
 
-            if (allZero(count)) return true;
         }
 
         return false;
     }
 
-    private boolean allZero(int[] count) {
-        for (int i = 0; i < 26; i++) {
+    boolean allZeroes(int[] count){
+        for(int i=0; i< count.length; i++){
             if (count[i] != 0) return false;
         }
         return true;
     }
+
 
 
     public static void main(String[] args) {

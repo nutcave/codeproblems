@@ -74,6 +74,8 @@ public class DecodeWays {
     }
 
     public static void main(String[] args) {
+
+        new DecodeWays().numDecodings("226");
         new DecodeWays().numDecodings("129");
     }
 }
