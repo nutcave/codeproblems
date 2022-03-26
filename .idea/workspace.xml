@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70d6ef99-11ae-4d93-9e11-f42f368c8562" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/2022Grokking/2022Grokking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +59,7 @@
   <component name="RunManager" selected="Application.MaxNumKSumPairs">
     <configuration name="CheckNIfDoubleExists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="map.CheckNIfDoubleExists" />
-      <module name="codeproblems2021" />
+      <module name="2021CodingProblems" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="map.*" />
@@ -69,7 +72,7 @@
     </configuration>
     <configuration name="DuplicateZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.DuplicateZeroes" />
-      <module name="codeproblems2021" />
+      <module name="2021CodingProblems" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.*" />
@@ -82,7 +85,7 @@
     </configuration>
     <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.dynamicprog.LongestIncreasingSubsequence" />
-      <module name="codeproblems2021" />
+      <module name="2021CodingProblems" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.dynamicprog.*" />
@@ -95,7 +98,7 @@
     </configuration>
     <configuration name="MaxNumKSumPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="map.MaxNumKSumPairs" />
-      <module name="codeproblems2021" />
+      <module name="2021CodingProblems" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="map.*" />
@@ -108,7 +111,7 @@
     </configuration>
     <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.twopointer.MergeSortedArray" />
-      <module name="codeproblems2021" />
+      <module name="2021CodingProblems" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array.twopointer.*" />
@@ -180,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628203151728</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1648321719728</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648321719728</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +230,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/BuySellStock.java</url>
+          <url>file://$PROJECT_DIR$/2021CodingProblems/src/array/dynamicprog/BuySellStock.java</url>
           <line>41</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -230,7 +240,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/codeproblems2021/src/array/mergeintervals/MergeIntervals.java</url>
+          <url>file://$PROJECT_DIR$/2021CodingProblems/src/array/mergeintervals/MergeIntervals.java</url>
           <line>36</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -245,7 +255,7 @@
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/codeproblems2021/src/array/twopointer/BackspaceStringCompare.java</url>
+          <url>file://$PROJECT_DIR$/2021CodingProblems/src/array/twopointer/BackspaceStringCompare.java</url>
           <line>60</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>

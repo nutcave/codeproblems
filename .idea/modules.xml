@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/2021CodingProblems/2021CodingProblems.iml" filepath="$PROJECT_DIR$/2021CodingProblems/2021CodingProblems.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2022Grokking/2022Grokking.iml" filepath="$PROJECT_DIR$/2022Grokking/2022Grokking.iml" />
       <module fileurl="file://$PROJECT_DIR$/codeproblems.iml" filepath="$PROJECT_DIR$/codeproblems.iml" />
-      <module fileurl="file://$PROJECT_DIR$/codeproblems2021/codeproblems2021.iml" filepath="$PROJECT_DIR$/codeproblems2021/codeproblems2021.iml" />
     </modules>
   </component>
 </project>
