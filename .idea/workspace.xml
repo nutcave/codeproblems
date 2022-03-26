@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70d6ef99-11ae-4d93-9e11-f42f368c8562" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/DuplicateZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/binarysearch/SearchInsertPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/LongestCommonSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/slidingwindow/MaxAvgSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/slidingwindow/MaxConsecutiveOnes3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/twopointer/BackspaceStringCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/twopointer/DistinctSquaredElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/twopointer/MergeSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/twopointer/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/twopointer/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/twopointer/SquaresofaSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/array/twopointer/ValidMountain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/binarytree/DiameterBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/dfs/SubtreeOfAnotherTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/fastslowpointers/IntersectionOfLinkedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/map/CheckNIfDoubleExists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codeproblems2021/src/map/MaxNumKSumPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/DecodeWays.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeproblems2021/src/array/dynamicprog/DecodeWays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeproblems2021/src/array/mergeintervals/IntervalIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeproblems2021/src/array/mergeintervals/IntervalIntersection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeproblems2021/src/array/mergeintervals/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeproblems2021/src/array/mergeintervals/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeproblems2021/src/array/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeproblems2021/src/array/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeproblems2021/src/array/slidingwindow/PermutationInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeproblems2021/src/array/slidingwindow/PermutationInString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/KSmallestInBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/KSmallestInBST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614521517846</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update">
+      <created>1628203151728</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628203151728</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
