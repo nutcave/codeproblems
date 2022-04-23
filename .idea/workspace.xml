@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70d6ef99-11ae-4d93-9e11-f42f368c8562" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/MinSubArrayLen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/FindAllAnagramsInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/LengthOfLongestSubstringKDistinct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/LongestRepeatingCharacterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/MinWindowSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/PermutationInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/SubstringWithConcatenationofAllWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/twopointer/RemoveDuplicatesfromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/twopointer/ThreeSumClosest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/twopointer/ThreeSumSmaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/twopointer/TwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/twopointer/sortedSquares.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,20 +58,21 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="fastslowpointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxNumKSumPairs">
-    <configuration name="CheckNIfDoubleExists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.CheckNIfDoubleExists" />
-      <module name="2021CodingProblems" />
+  <component name="RunManager" selected="Application.ThreeSumSmaller">
+    <configuration name="MinWindowSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.MinWindowSubString" />
+      <module name="2022Grokking" />
+      <option name="PROGRAM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.DuplicateZeroes" />
-      <module name="2021CodingProblems" />
+    <configuration name="PermutationInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.PermutationInString" />
+      <module name="2022Grokking" />
+      <option name="PROGRAM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestIncreasingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.dynamicprog.LongestIncreasingSubsequence" />
-      <module name="2021CodingProblems" />
+    <configuration name="SubstringWithConcatenationofAllWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.SubstringWithConcatenationofAllWords" />
+      <module name="2022Grokking" />
+      <option name="PROGRAM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.dynamicprog.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +108,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxNumKSumPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="map.MaxNumKSumPairs" />
-      <module name="2021CodingProblems" />
+    <configuration name="ThreeSumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointer.ThreeSumClosest" />
+      <module name="2022Grokking" />
+      <option name="PROGRAM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="map.*" />
+          <option name="PATTERN" value="twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.twopointer.MergeSortedArray" />
-      <module name="2021CodingProblems" />
+    <configuration name="ThreeSumSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twopointer.ThreeSumSmaller" />
+      <module name="2022Grokking" />
+      <option name="PROGRAM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.twopointer.*" />
+          <option name="PATTERN" value="twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,13 +136,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="PROGRAM_PARAMETERS" value="-ea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PermutationInString" />
+      <item itemvalue="Application.MinWindowSubString" />
+      <item itemvalue="Application.SubstringWithConcatenationofAllWords" />
+      <item itemvalue="Application.ThreeSumClosest" />
+      <item itemvalue="Application.ThreeSumSmaller" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxNumKSumPairs" />
-        <item itemvalue="Application.CheckNIfDoubleExists" />
-        <item itemvalue="Application.MergeSortedArray" />
-        <item itemvalue="Application.DuplicateZeroes" />
-        <item itemvalue="Application.LongestIncreasingSubsequence" />
+        <item itemvalue="Application.ThreeSumSmaller" />
+        <item itemvalue="Application.ThreeSumClosest" />
+        <item itemvalue="Application.SubstringWithConcatenationofAllWords" />
+        <item itemvalue="Application.MinWindowSubString" />
+        <item itemvalue="Application.PermutationInString" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648322057936</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="w">
+      <created>1648390471343</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648390471343</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,7 +265,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="w" />
+    <option name="LAST_COMMIT_MESSAGE" value="w" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -263,6 +300,51 @@
           <url>file://$PROJECT_DIR$/2021CodingProblems/src/array/twopointer/BackspaceStringCompare.java</url>
           <line>60</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/LongestRepeatingCharacterReplacement.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/PermutationInString.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/PermutationInString.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/PermutationInString.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/MinWindowSubString.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/SubstringWithConcatenationofAllWords.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/ThreeSumClosest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/ThreeSumSmaller.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/ThreeSumSmaller.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
