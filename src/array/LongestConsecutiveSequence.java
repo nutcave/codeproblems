@@ -7,7 +7,6 @@ import java.util.*;
  * <p>
  * For example, given [100, 4, 200, 1, 3, 2], the longest consecutive elements sequence should be [1, 2, 3, 4]. Its length is 4.
  * <p>
- * Created by Yousifk on 11-Nov-18.
  */
 public class LongestConsecutiveSequence {
 

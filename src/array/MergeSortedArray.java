@@ -16,7 +16,6 @@ import java.util.Arrays;
  * <p>
  * Output: [1,2,2,3,5,6]
  * <p>
- * Created by Yousifk on 12-Nov-18.
  */
 public class MergeSortedArray {
     public void merge(int A[], int m, int B[], int n) {
