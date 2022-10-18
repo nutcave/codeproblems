@@ -5,39 +5,31 @@ import util.TreeNode;
 /**
  *
  *
- * Given two binary trees, write a function to check if they are equal or not.
+ Given the roots of two binary trees p and q, write a function to check if they are the same or not.
 
- Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
-
- Return 0 / 1 ( 0 for false, 1 for true ) for this problem
+ Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
 
 
- * Created by Nutcave on 1/3/2017.
  */
 public class SameTree {
 
+    public boolean isSameTree(TreeNode p, TreeNode q) {
 
-    public int isSameTree(TreeNode a, TreeNode b) {
+        // Equal nullity denotes that this branch is the same (local equality)
+        // This is a base case, but also handles being given two empty trees
+        if (p == null && q == null) return true;
 
-        if(a == null && b== null){
-            return 1;
-        }else if(a == null || b==null){
-            return 0;
-        }
+            // Unequal nullity denotes that the trees aren't the same
+            // Note that we've already ruled out equal nullity above
+        else if (p == null || q == null) return false;
 
-        if( a.val != b.val){
-            return 0;
-        }
+        // Both nodes have values; descend iff those values are equal
+        // "&&" here allows for any difference to overrule a local equality
+        if (p.val == q.val) return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
 
-        int l=isSameTree(a.left,b.left);
-        int r = isSameTree(a.right,b.right);
-
-
-
-
-        return Math.min(Math.min(l,r), 1);
-
-
+        // If we're here, both nodes have values, and they're unequal, so the trees aren't the same
+        return false;
     }
+
 
 }
