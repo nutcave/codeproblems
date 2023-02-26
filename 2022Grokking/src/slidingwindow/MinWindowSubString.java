@@ -25,11 +25,11 @@ import java.util.Map;
  */
 public class MinWindowSubString {
 
-    public String minWindow(String s, String t) {
+    public String minWindow(String s, String pattern) {
 
         Map<Character,Integer> map = new HashMap<>();
-        for(int i=0; i < t.length(); i++){
-            map.put(t.charAt(i), map.getOrDefault(t.charAt(i),0)+1);
+        for(int i=0; i < pattern.length(); i++){
+            map.put(pattern.charAt(i), map.getOrDefault(pattern.charAt(i),0)+1);
         }
 
         int matched=0;
@@ -52,7 +52,7 @@ public class MinWindowSubString {
                 map.put(rightC,res);
             }
 
-            while( matched == t.length()){
+            while( matched == pattern.length()){
 
                 if(j - i +1 < minLength){
                     minLength= j - i +1;
@@ -78,7 +78,7 @@ public class MinWindowSubString {
     }
 
     public static void main(String[] args) {
-//        new MinWindowSubString().minWindow("ADOBECODEBANC", "ABC");
+        new MinWindowSubString().minWindow("ADOBECODEBANC", "ABC");
         new MinWindowSubString().minWindow("a", "aa");
     }
 

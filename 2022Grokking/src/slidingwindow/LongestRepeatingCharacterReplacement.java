@@ -52,6 +52,7 @@ public class LongestRepeatingCharacterReplacement {
     }
 
     public static void main(String[] args) {
-        new LongestRepeatingCharacterReplacement().characterReplacement("ABCBBBB",2);
+//        new LongestRepeatingCharacterReplacement().characterReplacement("ABCBBBB",2);
+        new LongestRepeatingCharacterReplacement().characterReplacement("AABABBA",2);
     }
 }

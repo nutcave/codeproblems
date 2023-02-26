@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70d6ef99-11ae-4d93-9e11-f42f368c8562" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/bfs/ZigzagTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/util/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/util/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/util/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021CodingProblems/src/array/ProductExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021CodingProblems/src/array/ProductExceptSelf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/LongestRepeatingCharacterReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/LongestRepeatingCharacterReplacement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/SameTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tree/SameTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/MinWindowSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/MinWindowSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,32 +50,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="D:/Program Files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2022Grokking/src" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\prosk\IdeaProjects\codeproblems\2022Grokking\src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="fastslowpointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CombinationSum">
-    <configuration name="BackspaceStringCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointer.BackspaceStringCompare" />
-      <module name="2022Grokking" />
-      <option name="PROGRAM_PARAMETERS" value="-ea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="twopointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LongestRepeatingCharacterReplacement">
     <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="backtracking.CombinationSum" />
       <module name="codeproblems" />
@@ -85,13 +79,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FourSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointer.FourSum" />
+    <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestRepeatingCharacterReplacement" />
       <module name="2022Grokking" />
       <option name="PROGRAM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twopointer.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,13 +107,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestUnsortedContinuousSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointer.ShortestUnsortedContinuousSubarray" />
+    <configuration name="MinWindowSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="slidingwindow.MinWindowSubString" />
       <module name="2022Grokking" />
       <option name="PROGRAM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twopointer.*" />
+          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ReverseString" />
+      <module name="codeproblems" />
+      <option name="PROGRAM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FourSum" />
-      <item itemvalue="Application.BackspaceStringCompare" />
-      <item itemvalue="Application.ShortestUnsortedContinuousSubarray" />
       <item itemvalue="Application.MergeIntervals" />
       <item itemvalue="Application.CombinationSum" />
+      <item itemvalue="Application.MinWindowSubString" />
+      <item itemvalue="Application.ReverseString" />
+      <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.MinWindowSubString" />
         <item itemvalue="Application.CombinationSum" />
         <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.ShortestUnsortedContinuousSubarray" />
-        <item itemvalue="Application.BackspaceStringCompare" />
-        <item itemvalue="Application.FourSum" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666089132645</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="w">
+      <created>1666104109375</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666104109375</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -307,11 +322,6 @@
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/LongestRepeatingCharacterReplacement.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/PermutationInString.java</url>
           <line>57</line>
           <option name="timeStamp" value="23" />
@@ -368,27 +378,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java</url>
-          <line>18</line>
+          <line>42</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java</url>
-          <line>35</line>
+          <line>59</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java</url>
-          <line>22</line>
+          <line>46</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java</url>
-          <line>26</line>
+          <line>50</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java</url>
-          <line>51</line>
+          <line>75</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -400,6 +410,21 @@
           <url>file://$PROJECT_DIR$/src/backtracking/CombinationSum.java</url>
           <line>52</line>
           <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/MinWindowSubString.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/ReverseString.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/LongestRepeatingCharacterReplacement.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
