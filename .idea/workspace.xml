@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70d6ef99-11ae-4d93-9e11-f42f368c8562" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/2022Grokking/src/bfs/ZigzagTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022Grokking/src/util/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022Grokking/src/util/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022Grokking/src/util/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/bfs/MinimumDepthBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/bfs/PopulatingNextRightPointersinEachNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/bfs/RightSizeBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/fastslow/LinkedListHasCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021CodingProblems/src/array/ProductExceptSelf.java" beforeDir="false" afterPath="$PROJECT_DIR$/2021CodingProblems/src/array/ProductExceptSelf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/LongestRepeatingCharacterReplacement.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/LongestRepeatingCharacterReplacement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/MinWindowSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022Grokking/src/slidingwindow/MinWindowSubString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -251,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666104109375</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update">
+      <created>1677452017039</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677452017039</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -284,9 +287,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="w" />
-    <option name="LAST_COMMIT_MESSAGE" value="w" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
