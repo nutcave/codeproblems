@@ -14,6 +14,7 @@ public class RightSizeBinaryTree {
 
         if (root == null) return res;
 
+
         Queue<TreeNode> queue = new LinkedList<>();
         queue.add(root);
 
