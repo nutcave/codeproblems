@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70d6ef99-11ae-4d93-9e11-f42f368c8562" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/2022Grokking/src/bfs/MinimumDepthBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022Grokking/src/bfs/PopulatingNextRightPointersinEachNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022Grokking/src/bfs/RightSizeBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022Grokking/src/fastslow/LinkedListHasCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/fastslow/PalindromeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/fastslow/ReorderedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/reverseinplace/ReverseLinked2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +23,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="test-task" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -50,7 +54,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -60,28 +64,14 @@
       <recent name="fastslowpointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestRepeatingCharacterReplacement">
-    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="backtracking.CombinationSum" />
-      <module name="codeproblems" />
-      <option name="PROGRAM_PARAMETERS" value="-ea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.LongestRepeatingCharacterReplacement" />
+  <component name="RunManager" selected="Application.ReverseLinked2">
+    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fastslow.HappyNumber" />
       <module name="2022Grokking" />
       <option name="PROGRAM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="fastslow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,27 +79,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.mergeintervals.MergeIntervals" />
-      <module name="2021CodingProblems" />
-      <option name="PROGRAM_PARAMETERS" value="-ea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.mergeintervals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinWindowSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="slidingwindow.MinWindowSubString" />
+    <configuration name="LinkedListCycle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fastslow.LinkedListCycle2" />
       <module name="2022Grokking" />
       <option name="PROGRAM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="slidingwindow.*" />
+          <option name="PATTERN" value="fastslow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,13 +93,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ReverseString" />
-      <module name="codeproblems" />
+    <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fastslow.PalindromeLinkedList" />
+      <module name="2022Grokking" />
       <option name="PROGRAM_PARAMETERS" value="-ea" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="fastslow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReorderedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fastslow.ReorderedList" />
+      <module name="2022Grokking" />
+      <option name="PROGRAM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fastslow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinked2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reverseinplace.ReverseLinked2" />
+      <module name="2022Grokking" />
+      <option name="PROGRAM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reverseinplace.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,30 +142,31 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MergeIntervals" />
-      <item itemvalue="Application.CombinationSum" />
-      <item itemvalue="Application.MinWindowSubString" />
-      <item itemvalue="Application.ReverseString" />
-      <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
+      <item itemvalue="Application.LinkedListCycle2" />
+      <item itemvalue="Application.HappyNumber" />
+      <item itemvalue="Application.PalindromeLinkedList" />
+      <item itemvalue="Application.ReorderedList" />
+      <item itemvalue="Application.ReverseLinked2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.MinWindowSubString" />
-        <item itemvalue="Application.CombinationSum" />
-        <item itemvalue="Application.MergeIntervals" />
+        <item itemvalue="Application.ReverseLinked2" />
+        <item itemvalue="Application.PalindromeLinkedList" />
+        <item itemvalue="Application.ReorderedList" />
+        <item itemvalue="Application.HappyNumber" />
+        <item itemvalue="Application.LinkedListCycle2" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <branch name="master" repository="C:\Users\prosk\IdeaProjects\codeproblems" />
       <changelist id="70d6ef99-11ae-4d93-9e11-f42f368c8562" name="Default Changelist" comment="" />
       <created>1611339575546</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1611339575546</updated>
+      <updated>1677957654228</updated>
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1611347582535</created>
@@ -254,7 +259,31 @@
       <option name="project" value="LOCAL" />
       <updated>1677452017039</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="w">
+      <created>1677881484219</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677881484219</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test task">
+      <branch name="master" repository="C:\Users\prosk\IdeaProjects\codeproblems" original="true" />
+      <branch name="test-task" repository="C:\Users\prosk\IdeaProjects\codeproblems" />
+      <changelist id="70d6ef99-11ae-4d93-9e11-f42f368c8562" name="Default Changelist" comment="update" />
+      <created>1677955538005</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677957654228</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update">
+      <created>1690834149965</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1690834149965</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,148 +324,21 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2021CodingProblems/src/array/dynamicprog/BuySellStock.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/2022Grokking/src/fastslow/ReorderedList.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/backtracking/CombinationSum.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/2022Grokking/src/fastslow/ReorderedList.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2021CodingProblems/src/array/mergeintervals/MergeIntervals.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedlist/DetectCycleLinkedList.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/linkedlist/DetectCycleLinkedList.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2021CodingProblems/src/array/twopointer/BackspaceStringCompare.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/PermutationInString.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/PermutationInString.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/PermutationInString.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/MinWindowSubString.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/SubstringWithConcatenationofAllWords.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/ThreeSumClosest.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/ThreeSumSmaller.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/ThreeSumSmaller.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/NumSubarrayProductLessThanK.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/SortColors.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/SortColors.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/twopointer/BackspaceStringCompare.java</url>
-          <line>75</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2021CodingProblems/src/array/mergeintervals/MergeIntervals.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/backtracking/CombinationSum.java</url>
-          <line>52</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/MinWindowSubString.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/array/ReverseString.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2022Grokking/src/slidingwindow/LongestRepeatingCharacterReplacement.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="70" />
+          <url>file://$PROJECT_DIR$/2022Grokking/src/fastslow/ReorderedList.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="a" />
-        <watch expression="b" />
-        <watch expression="c" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
