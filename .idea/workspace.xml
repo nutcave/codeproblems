@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70d6ef99-11ae-4d93-9e11-f42f368c8562" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/2022Grokking/src/fastslow/PalindromeLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022Grokking/src/fastslow/ReorderedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022Grokking/src/reverseinplace/ReverseLinked2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/bfs/BinaryTreeOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/dfs/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/dfs/PathSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/dfs/PathSum3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/dfs/SumRootToLeaveNodes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022Grokking/src/reverseinplace/RotateList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022Grokking/src/twopointer/FourSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022Grokking/src/twopointer/FourSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022Grokking/src/twopointer/NumSubarrayProductLessThanK.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022Grokking/src/twopointer/NumSubarrayProductLessThanK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022Grokking/src/twopointer/ShortestUnsortedContinuousSubarray.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022Grokking/src/twopointer/ShortestUnsortedContinuousSubarray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022Grokking/src/twopointer/SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/2022Grokking/src/twopointer/SortColors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,35 +71,7 @@
       <recent name="fastslowpointers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseLinked2">
-    <configuration name="HappyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fastslow.HappyNumber" />
-      <module name="2022Grokking" />
-      <option name="PROGRAM_PARAMETERS" value="-ea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fastslow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListCycle2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fastslow.LinkedListCycle2" />
-      <module name="2022Grokking" />
-      <option name="PROGRAM_PARAMETERS" value="-ea" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="fastslow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PathSum3">
     <configuration name="PalindromeLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fastslow.PalindromeLinkedList" />
       <module name="2022Grokking" />
@@ -100,6 +79,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="fastslow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PathSum3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dfs.PathSum3" />
+      <module name="2022Grokking" />
+      <option name="PROGRAM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,6 +128,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RotateList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reverseinplace.RotateList" />
+      <module name="2022Grokking" />
+      <option name="PROGRAM_PARAMETERS" value="-ea" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reverseinplace.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="PROGRAM_PARAMETERS" value="-ea" />
       <method v="2">
@@ -142,19 +149,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedListCycle2" />
-      <item itemvalue="Application.HappyNumber" />
       <item itemvalue="Application.PalindromeLinkedList" />
       <item itemvalue="Application.ReorderedList" />
       <item itemvalue="Application.ReverseLinked2" />
+      <item itemvalue="Application.RotateList" />
+      <item itemvalue="Application.PathSum3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathSum3" />
+        <item itemvalue="Application.RotateList" />
         <item itemvalue="Application.ReverseLinked2" />
         <item itemvalue="Application.PalindromeLinkedList" />
         <item itemvalue="Application.ReorderedList" />
-        <item itemvalue="Application.HappyNumber" />
-        <item itemvalue="Application.LinkedListCycle2" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690834149965</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update">
+      <created>1691182537972</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1691182537972</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,6 +351,11 @@
           <url>file://$PROJECT_DIR$/2022Grokking/src/fastslow/ReorderedList.java</url>
           <line>15</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2022Grokking/src/reverseinplace/RotateList.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

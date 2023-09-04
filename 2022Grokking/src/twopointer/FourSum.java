@@ -12,11 +12,11 @@ public class FourSum {
         Arrays.sort(nums);
         for (int i = 0; i < nums.length - 3; i++) {
             if(i> 0 && nums[i] == nums[i-1]){
-                continue;
+                continue; // skip duplicates
             }
             for (int j = i + 1; j < nums.length - 2; j++) {
                 if(j > i + 1 && nums[j] == nums[j-1]){
-                    continue;
+                    continue; // skip duplicates
                 }
                 int k = j + 1;
                 int h = nums.length - 1;
@@ -31,8 +31,11 @@ public class FourSum {
                         res.add(Arrays.asList(nums[i], nums[j], nums[k], nums[h]));
                         k++;
                         h--;
-                        if(k < h && nums[i] == nums[i-1]){
-                            continue;
+                        while(k < h && nums[k] == nums[k-1]){
+                            k++; // skip duplicates
+                        }
+                        while(k < h && nums[h] == nums[h+1]){
+                            h--; // skip duplicates
                         }
                     }
                 }
